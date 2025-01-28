@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("answer-box")
     .addEventListener("keydown", function (event) {
       if (event.key === "Enter") {
-        checkAnswer();
+        checkAnswer(
       }
     });
 
